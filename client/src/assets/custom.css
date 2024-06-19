@@ -1,0 +1,72 @@
+/* column and containers  */
+
+  .container-fluid {
+      background-color: rgb(0, 0, 0);
+      display: grid;
+      grid-template-rows: 90px 200px 200px 180px 20px ;
+      grid-template-columns: 140px 2fr 1fr;
+    
+  }
+
+  .columntwo{
+    grid-column: 2;
+    margin-top: 80px;
+  }
+
+  .columnthree{
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  /* Font Types */
+
+  .NavFont {
+    color: white !important;
+    
+    background-color: black;
+
+
+
+  }
+
+  .fontone{
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+    
+  }
+
+  .fontcard{
+    color: white;
+    font-size: 30px;
+    padding-top: 58px;
+    
+  }
+
+/* img & Button Card */
+
+  .img{
+
+    width: 40px;
+    padding-right: 10px;
+
+  }
+
+  .imgsadaf{
+    
+    width: 500px;
+    height: auto;
+    border: 2px solid white;
+    margin: 10px
+   
+}
+
+  .btn2{
+
+    color: white;
+  }
+
+
+/* footer */
+
+  
